@@ -14,6 +14,18 @@ import {
 } from 'react-native';
 
 export default class InputForm extends Component{ 
+	constructor(props){
+		super(props);
+		
+		this.state = {
+			inputNameText: '',
+			inputPasswordText: '',
+			inputEmailText: '',
+			inputPhoneNumberText: '',
+			inputPostalAddressText: '',
+		}
+	}
+
 	buttonGoToListingOnPress() {
 		this.props.navigator.push({
 			name: 'listContainer'
@@ -21,37 +33,47 @@ export default class InputForm extends Component{
 	};
 	
 	buttonSubmitOnPress() {
-		
+		var SendIntentAndroid = require('react-native-send-intent');
+		SendIntentAndroid.sendMail(this.state.inputEmailText, "Test", "Test data");
 	}
 
 	render() {
-		
 		return(
 			<View style={styles.container}>
         <Text style={styles.textName}>
           Name:
         </Text>
-        <TextInput style={styles.inputName}
-        />
+        <TextInput 
+			style={styles.inputName}
+			onChangeText={inputNameText => this.setState({inputNameText})}
+		/>
         <Text style={styles.textPassword}>
           Password:
         </Text>
-		<TextInput style={styles.inputName}
+		<TextInput 
+			style={styles.inputName}
+			onChangeText={inputPasswordText => this.setState({inputPasswordText})}
 		/>
 		<Text style={styles.textEmail}>
           Email:
         </Text>
-		<TextInput style={styles.inputName}
+		<TextInput 
+			style={styles.inputName}
+			onChangeText={inputEmailText => this.setState({inputEmailText})}
 		/>
 		<Text style={styles.textPhoneNumber}>
           Phone number:
         </Text>
-		<TextInput style={styles.inputName}
+		<TextInput 
+			style={styles.inputName}
+			onChangeText={inputPhoneNumberText => this.setState({inputPhoneNumberText})}
 		/>
 		<Text style={styles.textPostalAddress}>
           Postal address:
         </Text>
-		<TextInput style={styles.inputName}
+		<TextInput 
+			style={styles.inputName}
+			onChangeText={inputPostalAddressText => this.setState({inputPostalAddressText})}
 		/>
 		<Button style={styles.buttonSubmit}
 			onPress={this.buttonSubmitOnPress.bind(this)}

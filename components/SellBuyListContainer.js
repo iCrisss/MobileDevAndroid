@@ -17,7 +17,7 @@ export default class SellBuyListContainer extends Component{
 	
 	render() {
 		return (
-			<SellBuyList navigator={this.props.navigator}/>
+			<SellBuyList navigator={this.props.navigator} {...this.props.route.passProps}/>
 		)
 	};
 }

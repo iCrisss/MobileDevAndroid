@@ -22,10 +22,10 @@ export default class try1 extends Component {
 			return <InputForm navigator={navigator} />
 		}
 		if(route.name == 'listContainer'){
-			return <SellBuyListContainer navigator={navigator} />
+			return <SellBuyListContainer navigator={navigator} route = {route}/>
 		}
 		if(route.name == 'editListItem'){
-			return <EditListItem navigator={navigator} {...route.item} />
+			return <EditListItem navigator={navigator} {...route.passProps} />
 		}
 	};
   render() {
