@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-97bbcc9acb554de08efff79cf31dbb5751b24a17.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-4b271e3b4cd12e2795a1916b65af67ef98f96e64.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-0ce369551efb665191da4baa427a92d8f54a4aa1.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-5d0f0a87138573b5527d86af3a50031a22afd0ac.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-23b711e3b23e5deef9df30026a5141fac901aff4.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="731e2c3a475cd3a3cb3536d6c32e72e1ad2ed09e">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-b245072b1ece7f66ed74c60b163c0fb003764437.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-fbf0380ea6ca46d9a2f5606052b3013cc2127235.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-b53e2b2702b418f3e3aae3053b7bd52a15d458c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-810253aee2519fe6baa2e70ddc1d82c9c21c9c69.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="731e2c3a475cd3a3cb3536d6c32e72e1ad2ed09e">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-9b8bc2d56f9bb55540b1998468882e731f03926a.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-1871ce2d956edf85c4c6d5df5720aaa54ff0c0fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-bc0c0d901bd56b00a69569f5191f66e2707613ee.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-84927bad030e31cb2f6fb56a3c808ea5ac1d59dd.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6682334d34f00764e6753efcd15f060a4b95cda6">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-985d73a0a105e3005acfdf8e8c640942956ba4d4.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-2e17da8d008d8bc5f8ed3ede003c6ce5e837477b.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-08e369384e698673c5d89c94c053cadcae619e9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-465b93e4537fa9cad72596e479ac14b8919b20c7.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\try1\RNSendIntentModule\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ff91b4ad63711d19b81fa6ffdd2d0f85bdb780c2">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-300ba3c04233ee0d233a865b3a86bd1177e31e2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-5bca081238c68efb6727d7ae63f7b6d240667ab7.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-0261e211f520442c7c320ec6fa68badbbd284127.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-cbb2f8581f75aa824e6d80265a853de5f1aeddf4.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-bad61d6fb7894efc1cd07c9c60c5311d9081aafe.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-8f83cde2e9a94e07fa05371d02acc30aeb06207d.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-7c23f541ac69ecc5dbba8e6af35dceb532c065a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-e4ab003dd204443300efeac989d8d31d416692a0.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-1686553a1271ff2776c89deb3d4663c88e3eb6e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-7eed90324801e29604fdafa0020531363d5a1af1.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6682334d34f00764e6753efcd15f060a4b95cda6">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-d198d243c36806ffbd5881d06f0d6c8b99834836.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-63829949cbb59ac3a0494c1e94e922fa909692e8.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-ea5f0303e6482dbd1f95572a9e4f6d0767d74ecb.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-07b7dd93c6c3b5feed90e7762d40f609b47eb181.jar" />
+    </item>
+    <item
+        jar="C:\ReactNative\try1\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\ReactNative\try1\android\app\build\intermediates\pre-dexed\debug\classes-95b0ba0ea82c57b188333213439face1f025dc32.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-55c34695f463ab5f9c8d3ec854f2957bd051a07b.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-d58b802495ea815c7eeaf2c8cf9db26d08700b73.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-0317c4d7c90991d0608c0f3ddd3e21bf808345f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-c400d7afe2106769ae3021de95f6ee5ede38a912.jar" />
+    </item>
+    <item
+        jar="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\Users\CRISTIANSU\Documents\SchoolRelated\Programare pentru dispozitive mobile\Projects\try1\android\app\build\intermediates\pre-dexed\debug\classes-84e9442374d826036358d0585ffbf4d988908316.jar" />
+    </item>
+
+</items>
