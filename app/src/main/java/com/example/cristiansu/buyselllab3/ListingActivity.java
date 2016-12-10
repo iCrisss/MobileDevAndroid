@@ -5,34 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.cristiansu.buyselllab3.Listing.ListAdapters.ImageListingAdapter;
-import com.example.cristiansu.buyselllab3.Listing.ListItems.ImageListingImage;
+import com.example.cristiansu.buyselllab3.Repository.DAO.ItemsDataSource;
+import com.example.cristiansu.buyselllab3.Repository.DatabaseEntities.Item;
+import com.example.cristiansu.buyselllab3.Repository.DatabaseEntities.User;
 
-import java.io.Serializable;
+import java.util.List;
 
 public class ListingActivity extends AppCompatActivity {
 
+    private User user;
+
     private ListView _itemList;
-    private ImageListingImage[] listingImages = new ImageListingImage[]{
-            new ImageListingImage(R.drawable.printer_img, "Item1", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item2", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item3", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item4", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item5", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item6", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item7", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item8", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item9", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item10", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item11", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item12", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item13", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item14", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item15", (float) 5.9),
-            new ImageListingImage(R.drawable.printer_img, "Item16", (float) 5.9)
-    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,24 +28,45 @@ public class ListingActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if(bundle != null) {
-            int position = bundle.getInt("Position");
-            ImageListingImage listingItem = (ImageListingImage) bundle.get("ListingItem");
-            listingImages[position] = listingItem;
+            user = (User) bundle.get("user");
         }
 
-        ImageListingAdapter listingAdapter = new ImageListingAdapter(this,
-                R.layout.listview_item_layout, listingImages);
+        ItemsDataSource itemsDataSource = new ItemsDataSource(this);
+        List<Item> itemList = null;
+        try{
+            itemsDataSource.openReadable();
+            itemList = itemsDataSource.getAllItems();
+            itemsDataSource.close();
+        }
+        catch (Exception ex){
+
+        }
+
+        final ImageListingAdapter listingAdapter = new ImageListingAdapter(this,
+                R.layout.my_items_item_layout, itemList);
         _itemList.setAdapter(listingAdapter);
 
 
         _itemList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent detailsIntent = new Intent(ListingActivity.this, ListingItemDetailsActivity.class);
-                detailsIntent.putExtra("ListingItem", listingImages[position]);
-                detailsIntent.putExtra("Position", position);
+                Intent detailsIntent = new Intent(ListingActivity.this, ItemDetailsActivity.class);
+                detailsIntent.putExtra("user", user);
+                detailsIntent.putExtra("item",listingAdapter.getItem(position));
                 startActivity(detailsIntent);
             }
         });
+
+
+        Button backToMyAccountButton = (Button) findViewById(R.id.buttonListingBackToMyAccount);
+        backToMyAccountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent detailsIntent = new Intent(ListingActivity.this, MyAccountActivity.class);
+                detailsIntent.putExtra("user", user);
+                startActivity(detailsIntent);
+            }
+        });
+
     }
 }

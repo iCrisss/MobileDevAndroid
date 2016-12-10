@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void onClickButtonSubmit() {
-        EditText inputName = (EditText) this.findViewById(R.id.inputName);
-        EditText inputPassword = (EditText) findViewById(R.id.inputPassword);
+        EditText inputName = (EditText) this.findViewById(R.id.inputNameLogin);
+        EditText inputPassword = (EditText) findViewById(R.id.inputPasswordLogin);
         EditText inputEmail = (EditText) findViewById(R.id.inputEmail);
         EditText inputPhoneNumber = (EditText) findViewById(R.id.inputPhoneNumber);
         EditText inputPostalAddress = (EditText) findViewById(R.id.inputPostalAddress);

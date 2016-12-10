@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:id="@+id/textItemName"
+        android:id="@+id/textItemNameLabel"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -36,10 +36,10 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/inputItemName"
-        android:layout_alignBaseline="@+id/textItemName"
-        android:layout_alignBottom="@+id/textItemName"
-        android:layout_toRightOf="@+id/textItemName"
-        android:layout_toEndOf="@+id/textItemName" />
+        android:layout_alignBaseline="@+id/textItemNameLabel"
+        android:layout_alignBottom="@+id/textItemNameLabel"
+        android:layout_toRightOf="@+id/textItemNameLabel"
+        android:layout_toEndOf="@+id/textItemNameLabel" />
 
     <TextView
         android:text="Price: "
